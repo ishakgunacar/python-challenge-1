@@ -168,14 +168,15 @@ while place_order:
             keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o: ")
 
             # 5. Check the customer's input
-            if keep_ordering.lower() == 'y':
+            match keep_ordering.lower():
+                case 'y':
                     break
-            elif keep_ordering.lower() == 'n':
-                place_order = False
-                print("Thank you for your order.")
-                break
-            else:
-                print("Invalid input. Please try again.")
+                case 'n':
+                    place_order = False
+                    print("Thank you for your order.")
+                    break
+                case _:
+                    print("Invalid input. Please try again.")
 
 # Print out the customer's order
 #print(order)
