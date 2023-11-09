@@ -15,5 +15,3 @@
 * Open the file by typing in "explorer menu.py" if you're on Windows, or "open menu.py" if you're on Mac, and that should open up the case study via your desired Integrated Development Environment (IDE).
 
 * You're all set! Please don't grade me so hard! :-)
-
-## To access
